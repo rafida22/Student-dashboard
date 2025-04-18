@@ -24,7 +24,7 @@
 
 > Rafida CM  
 > B.Tech AI & DS  
-> Acorn Valley Technological University
+
 
 ---
 
