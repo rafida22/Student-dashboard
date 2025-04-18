@@ -1,0 +1,213 @@
+
+
+   body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf8f1; /* powder/vanilla base */
+    color: #3e2e2c; /* tobacco/pecan text */
+  }
+  
+  /* Header */
+  header {
+    background-color: #5e3b27; /* Pecan */
+    color: #fff8ec;
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.4rem;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff8ec;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #7a5133; /* Deeper pecan */
+    transform: scale(1.05);
+  }
+  
+  /* Main Section */
+  main {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #d6c3a3; /* peanut tone */
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #3b2b28;
+    margin-top: 40px;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background-color: #f6eee3; /* soft powder base */
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 14px 18px;
+    text-align: center;
+    border-bottom: 1px solid #e1d3c1;
+    color: #3e2e2c;
+  }
+  
+  th {
+    background-color: #e3d5c2; /* stone / vanilla blend */
+    color: #3e2e2c;
+  }
+  
+  tr:hover {
+    background-color: #f1e2cd; /* warm peanut blush */
+  }
+  
+  img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f8f4ec;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    color: #5e3b27;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    background-color: #fdfaf6;
+    border: 1px solid #d8c8b2;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #3e2e2c;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #a3907e;
+  }
+  
+  .contact-form button {
+    background-color: #e0b991; /* soft vanilla-peanut */
+    color: #3b2b28;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #d6a976;
+  }
+  /* Home Page Enhancements */
+.intro, .highlights, .stats, .cta {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .highlights ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .highlights li {
+    background-color: #f6eee3;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .stat-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .stat-box {
+    background-color: #f8f4ec;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 180px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  }
+  
+  .stat-box h4 {
+    font-size: 2rem;
+    margin: 0;
+    color: #5e3b27;
+  }
+  
+  .stat-box p {
+    margin: 8px 0 0;
+    color: #3e2e2c;
+  }
+  
+  .cta blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #7a5133;
+    margin: 20px auto;
+  }
+  
+  .cta a {
+    color: #5e3b27;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  
+  
+  
+  
+   
