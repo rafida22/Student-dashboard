@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us – Acorn Valley Tech</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
-    <h1>Contact My University</h1>
+    <h1>Zoom Tech</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -19,23 +20,50 @@
   </header>
 
   <main>
-   <h2>Get in Touch</h2>
-    <form class="contact-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
+    <div class="contact-container">
+      <section class="contact-info">
+        <h2>📍 Campus Address</h2>
+        
+        <p><strong>Zoom Technological University</strong><br>
+           123 Innovation Drive, Tech City, California 90210<br>
+           United States</p>
+      
+        <p><strong>Phone:</strong> +1 (800) 555-1234</p>
+        <p><strong>Email:</strong> info@acornvalleytech.edu</p>
+        <p><strong>Office Hours:</strong> Mon – Fri, 9:00 AM – 5:00 PM</p>
+      
+       
+      
+        <!-- Google Map Embed -->
+        <div class="map-box">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5745.644547970888!2d76.33341019157653!3d10.054593491783336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c269c104ecd%3A0x845435f558157962!2sKalamassery%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1745040439633!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </section>
+      
+  
+      <section class="form-section">
+        <h2>💬 Send Us a Message</h2>
+        <form class="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Your full name" />
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+  
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+  
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
   </main>
+  
 
   <footer>
-    <p>&copy; 2025 Zoom University</p>
+    <p>&copy; 2025 Acorn Valley Technological University</p>
   </footer>
+
 </body>
 </html>
+
