@@ -6,7 +6,6 @@
 - 🏫 **Homepage** with university intro, highlights, stats, and an image slideshow
 - 📋 **Student Details Page** with a table showing student data (name, roll, department, email, photo)
 - 📞 **Contact Page** with a functional-looking contact form
-- 🖼️ **Image Slider** that automatically changes every 10 seconds + Next/Prev buttons
 - 🎨 Clean and warm design using earthy colors like pecan, vanilla, peanut, and tobacco
 - ✨ Responsive layout (basic) and hover effects
 
