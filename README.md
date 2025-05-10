@@ -19,10 +19,7 @@
 
 ---
 
-## 👨‍💻 Developed by
 
-> Rafida CM  
-> B.Tech AI & DS  
 
 
 ---
